@@ -10,6 +10,6 @@ class EmailAddressParser
    end
 
    def parse
-    emails.split(/, | /).uniq
+    emails.split(/, | /).uniq #the values between two forward slashes are the regex, from regex syhtax
    end
 end 
